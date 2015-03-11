@@ -1,6 +1,6 @@
 // set up our data series with 50 random data points
 
-var seriesData = [ [], [], [];
+var seriesData = [ [], [], ];
 var random = new Rickshaw.Fixtures.RandomData(150);
 
 for (var i = 0; i < 150; i++) {
@@ -20,18 +20,14 @@ var graph = new Rickshaw.Graph( {
 	renderer: 'line',
 	series: [
 		{
-			color: "#c05020",
+			color: "#6060C0",
 			data: seriesData[0],
-			name: 'New York'
+			name: 'Price'
 		}, {
 			color: "#30c020",
 			data: seriesData[1],
-			name: 'London'
-		}, {
-			color: "#6060c0",
-			data: seriesData[2],
-			name: 'Tokyo'
-		}
+			name: 'Glassdoor'
+		} 
 	]
 } );
 
