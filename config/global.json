@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "_default": {
+            "link": "hackdash"
+        }, 
+        "hackdash": {
+            "applicationId": "wTCyHepvBQOM57u3Ou13hZ2aWur65esYf8hNLm1L", 
+            "masterKey": "80m6XAEMpKPhAZWeyQTVQrwSS5JTniNNicB0owC3"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.3.5"
+    }
+}
