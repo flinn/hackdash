@@ -16,7 +16,11 @@ function startServer(config) {
   }
 
   app.get('/', function(req, res) {
-    res.render('layout', { message: "HACKDASH", title: "HackDash" });
+    res.render('layout', { isHome: true });
+  });
+
+  app.get('/dashboard', function(req, res) {
+    res.render('layout', { isHome: false });
   });
 
   app.listen(config.port);

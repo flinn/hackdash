@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html>
    	<head>
-   		<title><%= title %></title>
+   		<title></title>
    	</head>
    	<body>
        	<section role="main">
-      		<%= message %>
-      		<% include search %>
+      		<% if (isHome) { %>
+      			<% include search %>
+      		<% } else { %>
+      			<% include dashboard %>
+      		<% } %>
        	</section>
    	</body>
 </html>
