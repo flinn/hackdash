@@ -9,10 +9,20 @@
   display: inline-block;
 }
 
-#legend {
-	text-align: left;
-	margin-top: 40px;
-	margin-bottom: -20px;
+.line {
+  display: inline-block;
+  margin: 0 0 0 30px;
+}
+
+.swatch {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 8px 0 0;
+}
+
+.label {
+  color: #000000;
 }
 
 body {

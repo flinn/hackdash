@@ -10,11 +10,11 @@ module.exports = function(grunt) {
           command: 'npm run watch'
         },
         build: {
-          command: 'npm run build'
+          command: 'npm install cloud/ & npm run build'
         }
     },
     concurrent: {
-        runandwatch: ['shell:nodemon', 'shell:watchify'],
+        runandwatch: ['shell:build','shell:nodemon', 'shell:watchify'],
         options: {
           logConcurrentOutput: true
         }
