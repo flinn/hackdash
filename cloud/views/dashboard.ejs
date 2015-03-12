@@ -1,5 +1,33 @@
-<div id="graphArea" class="jumbotron">
-	<div class="dash">
-		<% include graph %>
-	</div>
+<div id="page-wrapper" style="min-height: 700px;" ng-hide="hideDashboard">
+  <div class="row">
+      <div class="col-lg-12">
+          <h1 class="page-header">Dashboard</h1>
+      </div>
+      <!-- /.col-lg-12 -->
+  </div>
+  <!-- /.row -->
+  <% include widgets/currentRatings %>
+  <!-- /.row -->
+  <div class="row">
+      <div class="col-lg-8">
+          <% include widgets/chart %>
+          <!-- /.panel -->
+          <% include widgets/timeline %>
+          <!-- /.panel -->
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-4">
+          <% include widgets/searchHistory %>
+          <!-- /.panel -->
+          <!-- include widgets/ratingsPieGraph -->
+          <!-- /.panel -->
+      </div>
+      <!-- /.col-lg-4 -->
+  </div>
+  <!-- /.row -->
+</div>
+<!-- /#page-wrapper -->
+<div id="page-wrapper" style="min-height: 700px;" ng-show="hideDashboard">
+	<h1>Welcome to StayConscious!</h1>
+	<p>Start by searching for a ticker...</p>
 </div>

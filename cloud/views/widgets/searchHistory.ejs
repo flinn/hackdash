@@ -1,0 +1,18 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <i class="fa fa-clock-o fa-fw"></i> Search History
+    </div>
+    <!-- /.panel-heading -->
+    <div class="panel-body">
+        <div class="list-group">
+            <a href="#" class="list-group-item" ng-repeat="search in searchList">
+                <i class="fa fa-search fa-fw"></i> {{ search.ticker }}
+                <span class="pull-right text-muted small"><em> {{ search.timeAgo }}</em>
+                </span>
+            </a>
+        </div>
+        <!-- /.list-group -->
+        <a href="#" class="btn btn-default btn-block">View All Searches</a>
+    </div>
+    <!-- /.panel-body -->
+</div>

@@ -12,11 +12,11 @@ exports.start = function(config) {
   }
 
   app.get('/', function(req, res) {
-    res.render('layout', { isHome: true });
+    res.render('index', { isHome: true });
   });
 
   app.get('/dashboard', function(req, res) {
-    res.render('layout', { isHome: false });
+    res.render('index', { isHome: false });
   });
 
   app.listen(config.port);
