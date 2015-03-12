@@ -3,4 +3,4 @@ curl -X POST \
   -H "X-Parse-REST-API-Key: b3L7AlI1rCzEsXofXzp7kbETwS8nDukouhRjmqeU" \
   -H "Content-Type: application/json" \
   -d '{}' \
-  https://api.parse.com/1/functions/quotes
+  https://api.parse.com/1/functions/ratings?ticker=FB
