@@ -25,6 +25,7 @@ function startServer(config) {
     res.render('layout', { isHome: false });
   });
 
+  // API Methods
   app.get('/api/instrument', api.quotes.getInstrument);
   app.get('/api/caps', api.caps.getRating);
   app.get('/api/glassdoor', api.glassdoor.getRating);
