@@ -1,5 +1,4 @@
 module.exports = function(app) {
-	
 	app.run(function() {
 
 		// set up our data series with 50 random data points
@@ -15,7 +14,6 @@ module.exports = function(app) {
 		}
 
 		// instantiate our graph!
-
 		var graph = new Rickshaw.Graph( {
 			element: document.getElementById("chart"),
 			width: getChartWidth(),
@@ -57,4 +55,4 @@ module.exports = function(app) {
 		axes.render();
 
 	});
-}
+};
