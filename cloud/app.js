@@ -1,13 +1,7 @@
-module.exports = {
-  start: startServer
-};
-
-function startServer(config) {
+exports.start = function(config) {
   var express = require('express');
   var app = express();
-  var request = require('request');
   var _ = require('underscore');
-  var api = require('cloud/api');
 
   app.set('views', 'cloud/views');
   app.set('view engine', 'ejs');
@@ -25,10 +19,5 @@ function startServer(config) {
     res.render('layout', { isHome: false });
   });
 
-  // API Methods
-  app.get('/api/instrument', api.quotes.getInstrument);
-  app.get('/api/caps', api.caps.getRating);
-  app.get('/api/glassdoor', api.glassdoor.getRating);
-
   app.listen(config.port);
-}
+};

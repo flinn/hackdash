@@ -1,1 +1,1 @@
-require('cloud/jobs/importDailyData.js');
+require('cloud/jobs/glassdoorImport.js');
