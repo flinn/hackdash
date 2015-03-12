@@ -1,0 +1,1 @@
+exports.JobData = require('cloud/libs/jobData.js').JobData;
