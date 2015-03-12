@@ -1,5 +1,18 @@
-#chart {
-	margin: 0 auto;
+
+.search {
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 20px;
+}
+
+.search b {
+  display: inline-block;
+}
+
+#legend {
+	text-align: left;
+	margin-top: 40px;
+	margin-bottom: -20px;
 }
 
 /* Space out content a bit */

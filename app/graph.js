@@ -3,7 +3,7 @@ module.exports = function(app) {
 	app.run(function() {
 
 		// set up our data series with 50 random data points
-		var seriesData = [ [], [], ];
+		var seriesData = [ [], [] ];
 		var random = new Rickshaw.Fixtures.RandomData(150);
 
 		for (var i = 0; i < 150; i++) {
@@ -23,7 +23,7 @@ module.exports = function(app) {
 			renderer: 'line',
 			series: [
 				{
-					color: "#6060C0",
+					color: "",
 					data: seriesData[0],
 					name: 'Price'
 				}, {
