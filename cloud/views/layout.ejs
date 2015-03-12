@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="hackdash">
    	<head>
-   		<title></title>
+   		<title>HackDash</title>
+      <% include head %>
    	</head>
    	<body>
        	<section role="main">
-      		<% if (isHome) { %>
-      			<% include search %>
-      		<% } else { %>
-      			<% include dashboard %>
-      		<% } %>
+          <div class="container">
+            <% include search %>
+            <% include dashboard %>
+          </div>
        	</section>
+        <% include foot %>
    	</body>
 </html>
