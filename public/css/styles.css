@@ -621,3 +621,14 @@ timeline {
         border-left-width: 0;
     }
 }
+
+/***************** OUR STYLES ******************/
+.navbar-default .navbar-brand {
+    color: #145fd7 !important;
+}
+
+.overallRating {
+    background-color: #ccc;
+    padding: 0px 5px;
+    border-radius: 5px;
+}

@@ -1,71 +1,86 @@
-var seriesData = [ [], [] ];
-var random = new Rickshaw.Fixtures.RandomData(150);
+module.exports = function(app) {
 
-for (var i = 0; i < 150; i++) {
-	random.addData(seriesData);
-}
+	app.run(function() {
 
-// instantiate our graph!
+		// set up our data series with 50 random data points
+		console.log("SETTING GRAPH UP!");
 
-var graph = new Rickshaw.Graph( {
-	element: document.getElementById("chart"),
-	width: 600,
-	height: 400,
-	renderer: 'line',
-	series: [
-		{
-			color: "#008cba",
-			data: seriesData[0],
-			name: 'Stock Price'
-		}, {
-			color: "#30c020",
-			data: seriesData[1],
-			name: 'Glassdoor Rating'
+		var seriesData = [ [], [], [] ];
+		var random = new Rickshaw.Fixtures.RandomData(150);
+
+		for (var i = 0; i < 150; i++) {
+			random.addData(seriesData);
 		}
-	]
-} );
 
-graph.render();
+		// instantiate our graph!
 
-var legend = document.querySelector('#legend');
+		var graph = new Rickshaw.Graph( {
+			element: document.getElementById("mainChart"),
+			width: 500,
+			height: 250,
+			renderer: 'line',
+			series: [
+				{
+					color: "#c05020",
+					data: seriesData[0],
+					name: 'New York'
+				}, {
+					color: "#30c020",
+					data: seriesData[1],
+					name: 'London'
+				}, {
+					color: "#6060c0",
+					data: seriesData[2],
+					name: 'Tokyo'
+				}
+			]
+		} );
 
-var Hover = Rickshaw.Class.create(Rickshaw.Graph.HoverDetail, {
+		graph.render();
 
-	render: function(args) {
+		var legend = document.querySelector('#legend');
 
-		legend.innerHTML = args.formattedXValue;
+		var Hover = Rickshaw.Class.create(Rickshaw.Graph.HoverDetail, {
 
-		args.detail.sort(function(a, b) { return a.order - b.order }).forEach( function(d) {
+			render: function(args) {
 
-			var line = document.createElement('div');
-			line.className = 'line';
+				legend.innerHTML = args.formattedXValue;
 
-			var swatch = document.createElement('div');
-			swatch.className = 'swatch';
-			swatch.style.backgroundColor = d.series.color;
+				args.detail.sort(function(a, b) { return a.order - b.order }).forEach( function(d) {
 
-			var label = document.createElement('div');
-			label.className = 'label';
-			label.innerHTML = d.name + ": " + d.formattedYValue;
+					var line = document.createElement('div');
+					line.className = 'line';
 
-			line.appendChild(swatch);
-			line.appendChild(label);
+					var swatch = document.createElement('div');
+					swatch.className = 'swatch';
+					swatch.style.backgroundColor = d.series.color;
 
-			legend.appendChild(line);
+					var label = document.createElement('div');
+					label.className = 'label';
+					label.innerHTML = d.name + ": " + d.formattedYValue;
 
-			var dot = document.createElement('div');
-			dot.className = 'dot';
-			dot.style.top = graph.y(d.value.y0 + d.value.y) + 'px';
-			dot.style.borderColor = d.series.color;
+					line.appendChild(swatch);
+					line.appendChild(label);
 
-			this.element.appendChild(dot);
+					legend.appendChild(line);
 
-			dot.className = 'dot active';
+					var dot = document.createElement('div');
+					dot.className = 'dot';
+					dot.style.top = graph.y(d.value.y0 + d.value.y) + 'px';
+					dot.style.borderColor = d.series.color;
 
-			this.show();
+					this.element.appendChild(dot);
 
-		}, this );
-        }
-});
+					dot.className = 'dot active';
 
-var hover = new Hover( { graph: graph } ); 
+					this.show();
+
+				}, this );
+		        }
+		});
+
+		var hover = new Hover( { graph: graph } );
+
+	});
+
+};

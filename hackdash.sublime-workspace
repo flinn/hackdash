@@ -79,15 +79,199 @@
 			"file": "cloud/main.js",
 			"settings":
 			{
-				"buffer_size": 130,
+				"buffer_size": 162,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "cloud/jobs/_jobs.js",
+			"file": "app/controllers/root.js",
 			"settings":
 			{
-				"buffer_size": 38,
+				"buffer_size": 530,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/search.js",
+			"settings":
+			{
+				"buffer_size": 1103,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/searchHistory.js",
+			"settings":
+			{
+				"buffer_size": 865,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/dashboard.js",
+			"settings":
+			{
+				"buffer_size": 377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/dashboard.ejs",
+			"settings":
+			{
+				"buffer_size": 1776,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/assets/head.ejs",
+			"settings":
+			{
+				"buffer_size": 1480,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/widgets/search.ejs",
+			"settings":
+			{
+				"buffer_size": 425,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/services/parse.js",
+			"settings":
+			{
+				"buffer_size": 1541,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bower.json",
+			"settings":
+			{
+				"buffer_size": 821,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "public/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 10327,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/nav/sidebar.ejs",
+			"settings":
+			{
+				"buffer_size": 418,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/widgets/graph.ejs",
+			"settings":
+			{
+				"buffer_size": 114,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/run/graph.js",
+			"settings":
+			{
+				"buffer_size": 1850,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "tests/testApiMethods.sh",
+			"settings":
+			{
+				"buffer_size": 272,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/widgets/currentRatings.ejs",
+			"settings":
+			{
+				"buffer_size": 3598,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/nav/header.ejs",
+			"settings":
+			{
+				"buffer_size": 671,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/nav/toplinks.ejs",
+			"settings":
+			{
+				"buffer_size": 8479,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/widgets/ratingsPieGraph.ejs",
+			"settings":
+			{
+				"buffer_size": 3207,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/widgets/searchHistory.ejs",
+			"settings":
+			{
+				"buffer_size": 805,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/widgets/timeline.ejs",
+			"settings":
+			{
+				"buffer_size": 6319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/widgets/chart.ejs",
+			"settings":
+			{
+				"buffer_size": 1037,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/index.js",
+			"settings":
+			{
+				"buffer_size": 507,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/index.ejs",
+			"settings":
+			{
+				"buffer_size": 605,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "cloud/views/assets/foot.ejs",
+			"settings":
+			{
+				"buffer_size": 798,
 				"line_ending": "Unix"
 			}
 		},
@@ -95,50 +279,7 @@
 			"file": "cloud/jobs/glassdoorImport.js",
 			"settings":
 			{
-				"buffer_size": 449,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cloud/api/_api.js",
-			"settings":
-			{
-				"buffer_size": 31,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cloud/api/quotes.js",
-			"settings":
-			{
-				"buffer_size": 134,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"contents": "",
-			"file": "cloud/api/glassdoorImport.js",
-			"file_size": -1,
-			"file_write_time": -1,
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "testApiMethods.sh",
-			"settings":
-			{
-				"buffer_size": 255,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "cloud/app.js",
-			"settings":
-			{
-				"buffer_size": 529,
+				"buffer_size": 2735,
 				"line_ending": "Unix"
 			}
 		}
@@ -199,32 +340,78 @@
 	"expanded_folders":
 	[
 		"/Users/mflinn/Hack/hackdash",
+		"/Users/mflinn/Hack/hackdash/app",
+		"/Users/mflinn/Hack/hackdash/app/controllers",
+		"/Users/mflinn/Hack/hackdash/app/run",
+		"/Users/mflinn/Hack/hackdash/app/services",
 		"/Users/mflinn/Hack/hackdash/cloud",
 		"/Users/mflinn/Hack/hackdash/cloud/api",
-		"/Users/mflinn/Hack/hackdash/cloud/jobs"
+		"/Users/mflinn/Hack/hackdash/cloud/jobs",
+		"/Users/mflinn/Hack/hackdash/cloud/views",
+		"/Users/mflinn/Hack/hackdash/cloud/views/assets",
+		"/Users/mflinn/Hack/hackdash/cloud/views/nav",
+		"/Users/mflinn/Hack/hackdash/cloud/views/widgets",
+		"/Users/mflinn/Hack/hackdash/public",
+		"/Users/mflinn/Hack/hackdash/public/css",
+		"/Users/mflinn/Hack/hackdash/public/js",
+		"/Users/mflinn/Hack/hackdash/tests"
 	],
 	"file_history":
 	[
-		"/Users/mflinn/Hack/hackdash/old_code/api/quotes.js",
-		"/Users/mflinn/Hack/hackdash/cloud/app.js",
 		"/Users/mflinn/Hack/hackdash/cloud/api/glassdoor.js",
+		"/Users/mflinn/Hack/hackdash/cloud/jobs/glassdoorImport.js",
+		"/Users/mflinn/Hack/hackdash/public/js/angular-timeago.js",
+		"/Users/mflinn/Hack/hackdash/app/services/parse.js",
+		"/Users/mflinn/Hack/hackdash/tests/test",
+		"/Users/mflinn/Hack/hackdash/cloud/views/assets/head.ejs",
+		"/Users/mflinn/Hack/hackdash/public/js/parse-angular.js",
+		"/Users/mflinn/Hack/hackdash/public/js/morris-data.js",
+		"/Users/mflinn/Hack/hackdash/cloud/views/widgets/currentRatings.ejs",
+		"/Users/mflinn/Hack/hackdash/app/index.js",
+		"/Users/mflinn/Hack/hackdash/app/controllers/root.js",
+		"/Users/mflinn/Hack/hackdash/app/controllers/search.js",
+		"/Users/mflinn/Hack/hackdash/app/controllers/graph.js",
+		"/Users/mflinn/Hack/hackdash/app/controllers/dashboard.js",
+		"/Users/mflinn/Hack/hackdash/cloud/models/ticker.js",
+		"/Users/mflinn/Hack/hackdash/cloud/api/_api.js",
+		"/Users/mflinn/Hack/hackdash/cloud/views/index.ejs",
+		"/Users/mflinn/Hack/hackdash/cloud/views/nav/header.ejs",
+		"/Users/mflinn/Hack/hackdash/cloud/views/widgets/search.ejs",
+		"/Users/mflinn/Hack/hackdash/cloud/app.js",
+		"/Users/mflinn/Hack/hackdash/app/search.js",
+		"/Users/mflinn/Hack/hackdash/cloud/views/nav/sidebar.ejs",
+		"/Users/mflinn/Hack/hackdash/bower.json",
+		"/Users/mflinn/Hack/hackdash/cloud/jobs/_jobs.js",
+		"/Users/mflinn/Hack/hackdash/cloud/models/glassdoor.js",
+		"/Users/mflinn/Hack/hackdash/app/graph.js",
+		"/Users/mflinn/Hack/hackdash/public/js/sb-admin-2.js",
+		"/Users/mflinn/Hack/hackdash/cloud/views/foot.ejs",
+		"/Users/mflinn/Hack/hackdash/cloud/views/head.ejs",
+		"/Users/mflinn/Hack/hackdash/cloud/views/nav/toplinks.ejs",
+		"/Users/mflinn/Hack/hackdash/public/css/metismenu.css",
+		"/Users/mflinn/Hack/hackdash/public/css/styles.css",
+		"/Users/mflinn/Hack/hackdash/cloud/views/layout.ejs",
+		"/Users/mflinn/Hack/hackdash/cloud/views/sidebar.ejs",
+		"/Users/mflinn/Hack/hackdash/public/js/rapheal.min.js",
+		"/Users/mflinn/Hack/hackdash/app/raphael.js",
+		"/Users/mflinn/Hack/hackdash/public/css/morris.css",
+		"/Users/mflinn/Hack/hackdash/cloud/api/glassdoorImport.js",
 		"/Users/mflinn/Hack/hackdash/cloud/api/quotes.js",
+		"/Users/mflinn/Hack/hackdash/package.json",
+		"/Users/mflinn/Hack/hackdash/testApiMethods.sh",
+		"/Users/mflinn/Hack/hackdash/cloud/models/_models.js",
+		"/Users/mflinn/Hack/hackdash/hackdash.sublime-project",
+		"/Users/mflinn/Hack/hackdash/old_code/api/quotes.js",
 		"/Users/mflinn/Hack/hackdash/cloud/api/caps.js",
 		"/Users/mflinn/Hack/hackdash/cloud/api/index.js",
-		"/Users/mflinn/Hack/hackdash/app/index.js",
-		"/Users/mflinn/Hack/hackdash/app/graph.js",
 		"/Users/mflinn/Hack/hackdash/cloud/libs/jobData.js",
 		"/Users/mflinn/Hack/hackdash/createJob.sh",
 		"/Users/mflinn/Hack/hackdash/gruntfile.js",
 		"/Users/mflinn/Hack/hackdash/local.js",
-		"/Users/mflinn/Hack/hackdash/package.json",
 		"/Users/mflinn/Hack/hackdash/cloud/views/dashboard.ejs",
-		"/Users/mflinn/Hack/hackdash/cloud/views/layout.ejs",
-		"/Users/mflinn/Hack/hackdash/public/css/styles.css",
 		"/Users/mflinn/Hack/hackdash/cloud/api/common.js",
 		"/Users/mflinn/Hack/hackdash/cloud/jobs/importDailyData.js",
 		"/Users/mflinn/Hack/hackdash/cloud/jobs/shared.js",
-		"/Users/mflinn/Hack/hackdash/cloud/jobs/_jobs.js",
 		"/Users/mflinn/Hack/hackdash/cloud/libs/_libs.js",
 		"/Users/mflinn/Hack/hackdash/npm-debug.log.a60267b3200d756da4b2d90682e4d585",
 		"/Users/mflinn/Hack/hackdash/cloud/libs/_internal.js",
@@ -298,51 +485,18 @@
 		"/Users/mflinn/Code/lobster/lobby.controllers/module/content/library-controller.js",
 		"/Users/mflinn/Code/mobile-one/device/scss/fool/_nav.scss",
 		"/Users/mflinn/Code/mobile-one/device/scss/app.scss",
-		"/Users/mflinn/Code/mobile-one/device/scss/fool/_card.scss",
-		"/Users/mflinn/Code/mobile-one/device/www/templates/scorecards/teaser.html",
-		"/Users/mflinn/Code/lobster/lobby.controllers/module/content/audio-controller.js",
-		"/Users/mflinn/Code/mobile-one/device/www/templates/content/audio.html",
-		"/Users/mflinn/Code/mobile-one/device/scss/fool/_library.scss",
-		"/Users/mflinn/Code/mobile-one/device/www/lib/ionic-rating/ionic-rating.min.js",
-		"/Users/mflinn/Code/mobile-one/device/.gitignore",
-		"/Users/mflinn/Code/mobile-one/device/www/lib/wistia/E-v1.js",
-		"/Users/mflinn/Code/mobile-one/device/src/run/init-img-cache.js",
-		"/Users/mflinn/Code/mobile-one/device/package.json",
-		"/Users/mflinn/Code/mobile-one/device/gruntfile.js",
-		"/Users/mflinn/Code/mobile-one/device/scss/fool/_teaser.scss",
-		"/Users/mflinn/Code/mobile-one/device/scss/android/_fixes.scss",
-		"/Users/mflinn/Code/mobile-one/.gitignore",
-		"/Users/mflinn/Code/mobile-one/device/scss/fool/_menu.scss",
-		"/Users/mflinn/Code/lobster/lobby.controllers/module/system/notification-settings-controller.js",
-		"/Users/mflinn/Code/lobster/lobby.services/module/subscription-settings-service.js",
-		"/Users/mflinn/Code/lobster/lobby.content/module/services/trade-service.js",
-		"/Users/mflinn/Code/lobster/lobby.content/module/database/content-cache.js",
-		"/Users/mflinn/Code/mobile-one/server/cloud/api/tradeAlert.js",
-		"/Users/mflinn/Code/mobile-one/device/www/templates/trades/trade-inbox.html",
-		"/Users/mflinn/Code/mobile-one/device/scss/fool/_buttons.scss",
-		"/Users/mflinn/Desktop/iconsvg.svg",
-		"/Users/mflinn/Code/mobile-one/device/src/run/set-last-load.js",
-		"/Users/mflinn/Code/mobile-one/server/cloud/api/memberSubscription.js",
-		"/Users/mflinn/Code/mobile-one/device/src/run/version-increment.js",
-		"/Users/mflinn/Code/lobster/lobby.routes/module/router.js",
-		"/Users/mflinn/Code/lobster/lobby.services/module/member-service.js",
-		"/Users/mflinn/Code/lobster/lobby.controllers/module/system/login-controller.js",
-		"/Users/mflinn/Code/lobster/lobby.welcome/module/welcome-controller.js",
-		"/Users/mflinn/Code/lobster/lobby.content/module/database/local-db.js",
-		"/Users/mflinn/Code/lobster/lobby.content/module/database/session-db.js",
-		"/Users/mflinn/Code/lobster/lobby.storage/module/session-storage.js",
-		"/Users/mflinn/Code/lobster/lobby.content/module/services/reader-service.js",
-		"/Users/mflinn/Code/mobile-one/device/platforms/ios/build/emulator/Fool One.app/www/js/tmf.js"
+		"/Users/mflinn/Code/mobile-one/device/scss/fool/_card.scss"
 	],
 	"find":
 	{
-		"height": 52.0
+		"height": 39.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"/Users/mflinn/Hack/hackdash/cloud/models/glassdoor.js",
 			"",
 			"/Users/mflinn/Code/lobster/,<open files>",
 			"/Users/mflinn/Code/lobster/",
@@ -393,6 +547,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"chart",
+			"btn",
+			"saveGlassdoor",
+			"Ticker",
 			"resolves",
 			"}\n",
 			".bar-header .title",
@@ -516,11 +674,7 @@
 			".then",
 			"play(",
 			"scope.play",
-			".fail",
-			"see",
-			"restart",
-			"seekTo",
-			"statusC"
+			".fail"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -528,6 +682,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Glassdoor",
 			"trade-body",
 			"ion-ios-arrow-back",
 			"hideOrRemoveTargetedElement",
@@ -551,7 +706,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 15,
 			"sheets":
 			[
 				{
@@ -560,15 +715,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 130,
+						"buffer_size": 162,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								98,
-								98
+								53,
+								53
 							]
 						],
 						"settings":
@@ -578,6 +733,157 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/root.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 530,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "javascript",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/search.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "javascript",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "app/controllers/searchHistory.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 865,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "javascript",
+							"open_with_edit": true,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/dashboard.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								334,
+								334
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "javascript",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "cloud/views/dashboard.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1776,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								794,
+								794
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -587,58 +893,86 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "cloud/jobs/_jobs.js",
+					"buffer": 6,
+					"file": "cloud/views/assets/head.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 38,
+						"buffer_size": 1480,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								38,
-								38
+								585,
+								585
 							]
 						],
 						"settings":
 						{
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "javascript",
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "cloud/jobs/glassdoorImport.js",
+					"buffer": 7,
+					"file": "cloud/views/widgets/search.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 449,
+						"buffer_size": 425,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								256,
-								256
+								358,
+								358
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/services/parse.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1541,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
 							]
 						],
 						"settings":
 						{
 							"WordCountShouldRun": false,
 							"WordCountSyntax": "javascript",
-							"open_with_edit": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -647,32 +981,250 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "cloud/api/_api.js",
+					"buffer": 9,
+					"file": "bower.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 31,
+						"buffer_size": 821,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								31,
-								31
+								724,
+								724
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "json",
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 90.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "public/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10327,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10234,
+								10234
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": false,
+							"WordCountSyntax": "css",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 13620.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "cloud/views/nav/sidebar.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 418,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								324,
+								324
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "cloud/views/widgets/graph.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 114,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "app/run/graph.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1850,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								337,
+								337
 							]
 						],
 						"settings":
 						{
 							"WordCountShouldRun": false,
 							"WordCountSyntax": "javascript",
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "tests/testApiMethods.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								262,
+								262
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "shell-unix-generic",
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "cloud/views/widgets/currentRatings.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3598,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2268,
+								2268
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1154.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "cloud/views/nav/header.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 671,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								671,
+								671
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -682,43 +1234,266 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "cloud/api/quotes.js",
+					"buffer": 17,
+					"file": "cloud/views/nav/toplinks.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 134,
+						"buffer_size": 8479,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								130,
-								130
+								7731,
+								7731
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "cloud/views/widgets/ratingsPieGraph.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"open_with_edit": true,
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "cloud/views/widgets/searchHistory.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 805,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								221,
+								221
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"open_with_edit": true,
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "cloud/views/widgets/timeline.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								963,
+								963
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"open_with_edit": true,
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "cloud/views/widgets/chart.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1037,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								895,
+								895
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"open_with_edit": true,
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "app/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 507,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								193,
+								193
 							]
 						],
 						"settings":
 						{
 							"WordCountShouldRun": false,
 							"WordCountSyntax": "javascript",
-							"open_with_edit": true,
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
-					"file": "cloud/api/glassdoorImport.js",
+					"buffer": 23,
+					"file": "cloud/views/index.ejs",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 605,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								473,
+								473
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "cloud/views/assets/foot.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 798,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								468,
+								468
+							]
+						],
+						"settings":
+						{
+							"WordCountShouldRun": true,
+							"WordCountSyntax": "ejs",
+							"syntax": "Packages/EJS/EJS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "cloud/jobs/glassdoorImport.js",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 2735,
 						"regions":
 						{
 						},
@@ -733,66 +1508,6 @@
 						{
 							"WordCountShouldRun": false,
 							"WordCountSyntax": "javascript",
-							"open_with_edit": true,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "testApiMethods.sh",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 255,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								228,
-								228
-							]
-						],
-						"settings":
-						{
-							"WordCountSyntax": "shell-unix-generic",
-							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "cloud/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 529,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								498,
-								498
-							]
-						],
-						"settings":
-						{
-							"WordCountShouldRun": false,
-							"WordCountSyntax": "javascript",
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -801,7 +1516,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 11,
 					"type": "text"
 				}
 			]
@@ -809,7 +1524,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 44.0
+		"height": 31.0
 	},
 	"input":
 	{
@@ -845,7 +1560,7 @@
 	"project": "hackdash.sublime-project",
 	"replace":
 	{
-		"height": 84.0
+		"height": 58.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -880,7 +1595,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 327.0,
+	"side_bar_width": 273.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

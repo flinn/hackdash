@@ -1,13 +1,14 @@
-<div class="panel panel-default">
+<div class="panel panel-default" style="min-height: 500px;" ng-controller="searchHistory">
     <div class="panel-heading">
         <i class="fa fa-clock-o fa-fw"></i> Search History
     </div>
     <!-- /.panel-heading -->
     <div class="panel-body">
         <div class="list-group">
-            <a href="#" class="list-group-item" ng-repeat="search in searchList">
-                <i class="fa fa-search fa-fw"></i> {{ search.ticker }}
-                <span class="pull-right text-muted small"><em> {{ search.timeAgo }}</em>
+            <a class="list-group-item" ng-repeat="search in history" ng-click="searchFor(search.ticker)">
+                <i class="fa fa-search fa-fw"></i> Searched for {{ search.ticker }}
+                <span class="pull-right text-muted small">
+                  <em><span am-time-ago="search.time"></span></em>
                 </span>
             </a>
         </div>

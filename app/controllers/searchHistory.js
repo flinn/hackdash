@@ -1,21 +1,13 @@
 module.exports = function(app) {
 
-	app.controller('search', function($scope, $p, $rootScope) {
+	app.controller('searchHistory', function($scope, $rootScope, $p) {
 
-		$scope.search = {
-			text: ''
-		};
-
-		$scope.submitSearch = function() {
-			if (isValidSearch()) {
-				var ticker = $scope.search.text;
-				searchTicker(ticker);
-				$scope.search = null;
-			}
+		$scope.searchFor = function(symbol) {
+			searchTicker(symbol);
 		};
 
 		function searchTicker(symbol) {
-			console.log("Searching for ticker from left nav ... Symbol = ", symbol);
+			console.log("Searching for ticker with symbol...", symbol);
 			$p.post('currentRating', {
 				ticker: symbol
 			}).then(function(result) {
@@ -25,10 +17,6 @@ module.exports = function(app) {
 			}, function(err){
 				console.log("ERROR:", err);
 			});
-		}
-
-		function isValidSearch() {
-			return $scope.search.text && $scope.search.text.trim() !== '';
 		}
 
 		function refreshDashboard(result) {
@@ -43,7 +31,6 @@ module.exports = function(app) {
 			history.push(record);
 			$scope.updateHistory(history.reverse());
 		}
-
 
 	});
 

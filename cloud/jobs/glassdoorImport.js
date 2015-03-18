@@ -33,8 +33,8 @@ function getGlassdoorDataForTickers() {
 
 function getGlassdoorData(ticker) {
   var companyName = ticker.get('companyName');
-  var symbol = ticker.get('ticker');
-  console.log("Making request to glassdoor for " + companyName);
+  var symbol = ticker.get('symbol');
+  console.log("Making request to glassdoor for " + symbol);
   var rtn = new Parse.Promise();
 
   Parse.Cloud.httpRequest({
@@ -87,6 +87,7 @@ function createGlassdoorItem(item) {
   var glassdoorItem = Parse.Object.extend("Glassdoor");
   var newItem = new glassdoorItem();
   console.log("Saving company info for " + item.info.name);
+  console.log("Ticker == ", item.ticker);
   return newItem.save({
     'ticker': item.ticker,
     'result': item.info

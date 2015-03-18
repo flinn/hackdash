@@ -1,7 +1,8 @@
-<div id="page-wrapper" style="min-height: 700px;" ng-hide="hideDashboard">
+<div id="page-wrapper" style="min-height: 700px;" ng-controller="dashboard" ng-hide="hideDashboard">
   <div class="row">
       <div class="col-lg-12">
-          <h1 class="page-header">Dashboard</h1>
+          <h1 class="page-header"><a href="{{ dashboard.companyWebsite }}"><img alt="{{ dashboard.companyName }}" class="img" style="max-width: 60px; display: inline-block; margin-top: -10px;" ng-src="{{ dashboard.squareLogo }}"></a></a> {{ dashboard.name }} <span style="color: #ccc; display: inline-block; font-weight: normal; font-size: 26px;">({{ ticker }})</span></h1>
+          <h3 style="float: right; margin-top: -80px; color: #333;"><img src="http://www.glassdoor.com/static/img/api/glassdoor_logo_80.png"> Company Rating: <span class="overallRating">{{ dashboard.overallRating }}</span></h3><span style="float: right; margin-top: -50px; color: #555">Employees are {{ dashboard.ratingDescription }}</span>
       </div>
       <!-- /.col-lg-12 -->
   </div>
@@ -12,7 +13,7 @@
       <div class="col-lg-8">
           <% include widgets/chart %>
           <!-- /.panel -->
-          <% include widgets/timeline %>
+          <!-- include widgets/timeline -->
           <!-- /.panel -->
       </div>
       <!-- /.col-lg-8 -->
@@ -27,7 +28,12 @@
   <!-- /.row -->
 </div>
 <!-- /#page-wrapper -->
-<div id="page-wrapper" style="min-height: 700px;" ng-show="hideDashboard">
-	<h1>Welcome to StayConscious!</h1>
-	<p>Start by searching for a ticker...</p>
+<div id="page-wrapper" style="min-height: 700px; text-align: center" ng-show="hideDashboard">
+<div class="row">
+	<div class="col-lg-12">
+		<div class="well" style="margin-top: 30px;">
+			<h1>Welcome to ConsciousID!</h1>
+			<p>Start by searching for a ticker...</p>
+		</div>
+	</div>
 </div>
